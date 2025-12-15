@@ -1,0 +1,37 @@
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+    font-weight: 600px;
+    z-index: 99;
+}
+.logo{
+    font-weight: 800;
+    font-size: 22px;
+}
+.nft-side{
+    background-image: linear-gradient(to right, hsla(262, 83%, 58%, 1), hsla(0, 72%, 51%, 1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar-items>ul {
+    list-style: none;
+    display:inline-flex;
+    gap: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.navbar-items ul li:hover{
+    transition: 0.5s;
+    color: hsla(262, 83%, 58%, 1);
+}
+@media (max-width:575px) {
+    .navbar-items>ul{
+        display: none;
+    }
+    .nav-container{
+        justify-content: start;
+    }
+}

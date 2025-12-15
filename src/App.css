@@ -1,0 +1,16 @@
+.main-container {
+  min-height: 100vh;
+}
+
+.body-bg-shape {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  background-image: linear-gradient(to top left, hsla(0, 72%, 51%, 0.4) 0%, hsla(262, 83%, 58%, 0.4));
+  border-radius: 50%;
+  filter: blur(200px);
+  z-index: -1;
+}
