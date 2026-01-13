@@ -6,7 +6,7 @@ A responsive and interactive **NFT Gallery** web application built with **React.
 Check out the live project here: [NFT Gallery Live](https://)
 
 ## Features
-- Browse NFT collections with **real-time bid prices** and **base price** display.  
+- Browse NFT collections with **bid prices** and **base price** display.  
 - **Filter NFTs** by:
   - Name
   - Creator
