@@ -1,16 +1,29 @@
-# React + Vite
+# NFT Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and interactive **NFT Gallery** web application built with **React.js** and **external CSS**, allowing users to browse, filter, and explore NFTs with real-time bid prices and sorting features.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
+Check out the live project here: [NFT Gallery Live](https://)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Browse NFT collections with **real-time bid prices** and **base price** display.  
+- **Filter NFTs** by:
+  - Name
+  - Creator
+  - Price
+  - Alphabetical order  
+- Smooth navigation with **React Router DOM** (`useNavigate`, `useRef`).  
+- Responsive design using **external CSS** for styling.  
+- Optimized performance for fast and smooth user experience.
 
-## React Compiler
+## 🛠️ Tech Stack
+- **Frontend:** React.js, External CSS  
+- **Routing & Navigation:** React Router DOM (`useNavigate`, `useRef`)  
+- **State Management:** React Hooks (`useState`, `useEffect`)  
+- **Deployment:** Netlify  
+- **Other:** JavaScript ES6+, CSS3  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation & Setup (Local Development)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/abubakarcodeer/NFT-Gallery.git
