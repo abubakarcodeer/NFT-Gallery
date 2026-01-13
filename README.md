@@ -3,7 +3,7 @@
 A responsive and interactive **NFT Gallery** web application built with **React.js** and **external CSS**, allowing users to browse, filter, and explore NFTs with real-time bid prices and sorting features.
 
 ## 🌐 Live Demo
-Check out the live project here: [NFT Gallery Live](https://)
+Check out the live project here: [NFT Gallery Live](https://nft-gallery01.netlify.app)
 
 ## Features
 - Browse NFT collections with **bid prices** and **base price** display.  
